@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+
+  <!-- Rating state -->
+  <div class="state" id="ratingState">
+
+    <div id="starContener"><img src="./images/icon-star.svg" alt="Star"></div>
+    
+    <h1>How did we do?</h1>
+    
+    <p>
+      Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!
+    </p>
+    
+
+    <div id="ratingButtons">
+      <ul>
+        <li class="ratingButton" id="1" onclick="choice('1');">1</li>
+        <li class="ratingButton" id="2" onclick="choice('2');">2</li>
+        <li class="ratingButton" id="3" onclick="choice('3');">3</li>
+        <li class="ratingButton" id="4" onclick="choice('4');">4</li>
+        <li class="ratingButton" id="5" onclick="choice('5');">5</li>
+      </ul>
+    </div>
+
+    <div class="button" onclick="submitChoice()">Submit</div>
+    
+  </div>
+
+  <!-- Thank you state -->
+  <div class="state" id="thankYouState">
+
+    <img src="./images/illustration-thank-you.svg" alt="Thank You">
+    
+    <div id="feedBackText">You selected out of 5</div>
+    
+    <h1>Thank you!</h1>
+
+    <p>
+      We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!
+    </p>
+
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
