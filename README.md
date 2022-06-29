@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/leo-jcq/Interactive-rating-component/](https://github.com/leo-jcq/Interactive-rating-component/)
 - Live Site URL: [https://leo-jcq.github.io/Interactive-rating-component/](https://leo-jcq.github.io/Interactive-rating-component/)
 
 ## My process
